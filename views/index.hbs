@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styel.css" rel="stylesheet">
+    <link href="/image/icon.ico" rel="icon">
+    <title>Weather</title>
+</head>
+<body>
+  
+    <h1>{{title}}</h1>
+        <div>
+        <a href="/">Weather</a>
+        <a href="/about">About</a>
+        <a href="/help">Help</a>
+    </div>
+    </header>
+    <p>Use this site to get your Weather</p>
+    <form id="weather_form">
+        <input type="text" placeholder="Enter the City Name" id="place">
+        <button type="submit">Get Weather</button>
+    </form>
+    <p id="location"></p>
+    <p id="temp"></p>
+    <p id="desc"></p>
+    <footer>
+        <p>Created By - {{name}}</p>
+    </footer>
+    <script src="/js/client.js"></script>
+</body>
+</html>
